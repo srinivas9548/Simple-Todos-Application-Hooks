@@ -1,0 +1,37 @@
+.todo-item-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 16px;
+    }
+}
+
+.button {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ff0b37;
+    font-weight: 500;
+    border: 1px solid #ff0b37;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    outline: none;
+}
